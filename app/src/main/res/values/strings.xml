@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Assignment</string>
+    <string name="signin">LOGIN</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="logo">logo</string>
+    <string name="logout">LOGOUT</string>
+    <string name="welcome_to_moengage">WELCOME TO MOENGAGE</string>
+    <string name="moengage">MoEngage</string>
+</resources>
