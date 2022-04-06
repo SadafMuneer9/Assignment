@@ -33,7 +33,7 @@
         android:background="#4DAAD2E6"
         android:drawableStart="@drawable/ic_baseline_email_24"
         android:drawablePadding="10dp"
-        android:hint="Email"
+        android:hint="@string/email"
         android:padding="20dp"
         android:textColor="@color/white"
         android:textColorHint="@color/white"/>
@@ -55,11 +55,19 @@
         android:textColor="@color/white"
         android:textColorHint="@color/white"
         android:inputType="textPassword" />
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/password"
+        android:text="Remember me"
+        android:textColor="@color/white"
+        android:layout_margin="10dp"/>
     <Button
         android:id="@+id/loginbtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/password"
+        android:layout_below="@id/checkBox"
         android:text="@string/login"
         android:backgroundTint="@color/teal_200"
         android:layout_centerHorizontal="true"

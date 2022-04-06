@@ -21,12 +21,12 @@ class MainActivity : AppCompatActivity() {
         loginbtn.setOnClickListener {
             if (android.util.Patterns.EMAIL_ADDRESS.matcher(email.text.toString()).matches()&&(password.text.toString().isNotEmpty()))
             {
-                loginbtn.setOnClickListener{
                     val intent= Intent(this,HomeActivity::class.java)
                     startActivity(intent)
-                } }
-            else
+                    finish()
+                }
+            else{
                 Toast.makeText(this@MainActivity, "LOGIN FAILED!", Toast.LENGTH_SHORT).show()
         }
     }
-}
+}}

@@ -8,4 +8,5 @@
     <string name="logout">LOGOUT</string>
     <string name="welcome_to_moengage">WELCOME TO MOENGAGE</string>
     <string name="moengage">MoEngage</string>
+    <string name="email">Email</string>
 </resources>
